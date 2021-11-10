@@ -1,0 +1,41 @@
+body {
+    background-color: #ADE1FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#white, #green, #yellow, #pink {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 30px;
+    text-align: center;
+}
+#white {
+    height: 50px;
+}
+#green {
+    background-color: #7EFFCC;
+    display: none;
+}
+#yellow {
+    background-color: #FFE997;
+    display: none;
+}
+#pink {
+    background-color: #FEA1D4;
+    display: none;
+}
+button {
+    height: 20px;
+    background-color: #ADE1FD;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+}
